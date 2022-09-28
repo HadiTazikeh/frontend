@@ -1,0 +1,12 @@
+<p>showproduct works!</p>
+
+{{products | json}}
+
+
+<p><input type="text" id="productName" name="productName" [(ngModel)]="productName"></p>
+<p><input type="text" id="quantity" name="quantity" [(ngModel)]="quantity"></p>
+<p><input type="text" id="express" name="express" [(ngModel)]="express"></p>
+
+<button type="button" (click)="newOrder()">Clickme</button>
+
+{{deliveryTime}}
